@@ -1,2 +1,29 @@
 Langkah-Langkah Membuat Repositori pad Git Hub
 RIZKI RAMDANI
+
+$ mkdir : Membuat direktori baru di lokasi saat ini.
+$ ls : Menampilkan daftar file dan direktori di direktori saat ini.
+$ cd : Mengubah direktori saat ini ke direktori yang sudah di buat.
+$ touch README.md : Membuat file baru dengan nama "REAMDE.md" di dalam direktori.
+$ ls : Menampilkan daftar file di direktori saat ini.
+$ code .: Membuka direktori dalam editor kode (Visual Studio Code).
+$ cat > README.md: Menggunakan perintah cat, Anda dapat menulis teks ke dalam file "README.md". Setelah menginput isi kontennya, tekan Ctrl + C untuk menyimpan perubahan.
+$ nano README.md : Membuka file "README.md" dalam editor teks bernama Nano.
+$ git init : Menginisialisasi repositori Git baru di direktori.
+$ git config --global user.name "nama username" : Mengatur username Git secara global.
+$ git config --global user.email "nama email" : Mengatur email user Git secara global.
+$ git config -l: Menampilkan konfigurasi Git saat ini setelah mengatur nama pengguna dan email.
+$ git remote add origin : Menambahkan remote repository dengan nama "origin" (berbeda_beda setiap pembuatan).
+$ git remote -v : Menampilkan daftar remote repository yang terhubung.
+$ git add . : Menambahkan semua perubahan file ke dalam staged area untuk proses commit.
+$ git status : Menampilkan status perubahan yang belum di-commit dalam repository.
+$ git commit -m "commit 1": Membuat commit dengan pesan "commit 1" untuk menyimpan perubahan yang ada di staged area.
+$ git push origin master : Mengirim commit ke remote repository dengan nama "origin" pada branch "master".
+$ git checkout -b "tugas_oop1": Membuat branch baru dengan nama "tugas_oop1" dan beralih ke branch tersebut.
+$ git branch : Menampilkan daftar branch yang ada dalam repository.
+$ touch welcome.txt : Membuat file baru dengan nama "welcome.txt" di dalam branch "tugas_oop1".
+$ cat > welcome.txt : Menginput teks ke dalam file "welcome.txt" di branch "tugas_oop1". Setelah mengetikkan kontennya, tekan Ctrl + C untuk menyimpan perubahan.
+$ ls : Menampilkan daftar file dan direktori di direktori saat ini.
+$ git add . : Menambahkan semua perubahan file ke dalam staged area untuk proses commit.
+$ git commit -m "Add File welcome.txt" : Membuat commit dengan pesan "Add File welcome.txt" untuk menyimpan perubahan yang ada di staged area.
+$ git push origin tugas_oop1: Mengirim commit ke remote repository pada branch "tugas_oop1".
