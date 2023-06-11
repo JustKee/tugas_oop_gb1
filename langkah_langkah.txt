@@ -1,5 +1,6 @@
-Langkah-Langkah Membuat Repositori pad Git Hub
+Langkah-Langkah Membuat Repositori pada Git Hub
 RIZKI RAMDANI
+41155050220060
 
 $ mkdir : Membuat direktori baru di lokasi saat ini.
 $ ls : Menampilkan daftar file dan direktori di direktori saat ini.
